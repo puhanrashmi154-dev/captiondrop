@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>CaptionDrop - Free Instagram Caption Generator</title>
+
+<meta name="description" content="Generate stylish Instagram captions in English and Hinglish instantly. Funny, Sad, Attitude, Romantic and Motivational captions with trending hashtags.">
+<meta name="keywords" content="Instagram caption generator, trending hashtags, reels captions, funny captions, attitude captions">
+<meta name="author" content="SonuTechs">
+<meta name="robots" content="index, follow">
+
+<link rel="icon" type="image/png" href="images/favicon.png">
+
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<nav>
+  <div class="nav-logo">CaptionDrop</div>
+
+  <div class="lang-toggle">
+    <button id="enBtn" class="active">EN</button>
+    <button id="hiBtn">HI</button>
+  </div>
+</nav>
+
+<header>
+<h1 class="animated-title">
+  <span id="typing-text"></span>
+</h1>
+
+
+
+</header>
+
+<main>
+
+<!-- ================= GENERATOR SECTION ================= -->
+
+<section class="generator-card">
+
+  <input type="file" id="imageInput" accept="image/*">
+  <img id="preview">
+
+  <div class="mood-buttons">
+    <button class="mood active" data-mood="funny">Funny</button>
+    <button class="mood" data-mood="sad">Sad</button>
+    <button class="mood" data-mood="attitude">Attitude</button>
+    <button class="mood" data-mood="romantic">Romantic</button>
+    <button class="mood" data-mood="motivational">Motivational</button>
+  </div>
+
+  <div class="length-buttons">
+    <button class="length active" data-length="short">Short</button>
+    <button class="length" data-length="long">Long</button>
+  </div>
+
+  <button id="generateBtn">Generate</button>
+  <button id="regenerateBtn" class="secondary-btn">Regenerate</button>
+
+  <div id="result"></div>
+
+</section>
+
+
+<!-- ================= LIVE SHOWCASE ================= -->
+
+<section class="slider-section">
+  <h2>Live Caption Showcase</h2>
+
+  <div class="coverflow-container">
+    <div class="coverflow-track">
+
+      <!-- ORIGINAL SET -->
+
+      <div class="coverflow-item">
+        <img src="images/caption1.png" alt="Savage Mode Caption">
+        <div class="overlay">Savage Mode 🔥</div>
+      </div>
+
+      <div class="coverflow-item">
+        <img src="images/caption2.png" alt="Love Caption">
+        <div class="overlay">Love That Hits ❤️</div>
+      </div>
+
+      <div class="coverflow-item">
+        <img src="images/caption3.png" alt="Stay Rare Caption">
+        <div class="overlay">Stay Rare 🌙</div>
+      </div>
+
+      <div class="coverflow-item">
+        <img src="images/caption4.png" alt="Dream Big Caption">
+        <div class="overlay">Dream Big 💪</div>
+      </div>
+
+      <div class="coverflow-item">
+        <img src="images/caption5.png" alt="Main Character Caption">
+        <div class="overlay">Main Character ✨</div>
+      </div>
+
+      <!-- DUPLICATE SET FOR INFINITE TRAIN EFFECT -->
+
+      <div class="coverflow-item">
+        <img src="images/caption1.png" alt="Savage Mode Caption">
+        <div class="overlay">Savage Mode 🔥</div>
+      </div>
+
+      <div class="coverflow-item">
+        <img src="images/caption2.png" alt="Love Caption">
+        <div class="overlay">Love That Hits ❤️</div>
+      </div>
+
+      <div class="coverflow-item">
+        <img src="images/caption3.png" alt="Stay Rare Caption">
+        <div class="overlay">Stay Rare 🌙</div>
+      </div>
+
+      <div class="coverflow-item">
+        <img src="images/caption4.png" alt="Dream Big Caption">
+        <div class="overlay">Dream Big 💪</div>
+      </div>
+
+      <div class="coverflow-item">
+        <img src="images/caption5.png" alt="Main Character Caption">
+        <div class="overlay">Main Character ✨</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  © 2026 SonuTechs | CaptionDrop
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
